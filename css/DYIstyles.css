@@ -30,11 +30,20 @@ body {
 }
 
 .tableau {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     color: #5C754F;
     display: flex;
     justify-content: space-between;
-    height: 600px;
+    height: 500px;
+    padding: 10px;
+}
+
+.youtube {
+    background-color: #f8f9fa;
+    color: #5C754F;
+    display: flex;
+    justify-content: center;
+    height: 400px;
     padding: 10px;
 }
 
@@ -103,3 +112,7 @@ body {
     margin-bottom: 10px;
 }
 
+.container-tableau {
+    display: flex;
+    justify-content: center;
+}
