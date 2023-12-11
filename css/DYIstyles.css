@@ -1,0 +1,105 @@
+body {
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    margin: 0;
+}
+
+.common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    background-color: #ffffff;
+    color: #5C754F;
+    font-size: 30px;
+    font-weight: 800;
+    position: top;
+    height: 60px;
+    padding: 10px;
+}
+
+.main {
+    background-color: #ffffff;
+    color: #5C754F;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    padding: 10px;
+}
+
+.tableau {
+    background-color: #f8f9fa;
+    color: #5C754F;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: #5C754F;
+    font-size: 13px;
+    padding: 10px;
+    height: 30px;
+}
+
+.section {
+    width: 48%; /* Adjust as needed */
+    padding: 10px;
+  }
+
+.curved-box {
+    overflow: hidden;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+    width: 300px; 
+    height: 300px;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.curved-box img {
+    display: block;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.centered-text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline-text {
+    text-align: left;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.left-justified-list {
+    text-align: left;
+}
+
+.text-sm {
+    font-size: 19px;
+    font-style: italic;
+}
+
+.text-lg {
+    color: #5C754F;
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.li-spacing {
+    margin-bottom: 10px;
+}
+
