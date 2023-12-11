@@ -11,8 +11,8 @@ body {
 }
 
 .top {
-    background-color: #ffffff;
-    color: #5C754F;
+    background-color: #5C754F;
+    color: #ffffff;
     font-size: 30px;
     font-weight: 800;
     position: top;
@@ -102,7 +102,7 @@ body {
 }
 
 .text-lg {
-    color: #5C754F;
+    color: #ffffff;
     text-decoration: none;
     font-size: 34px;
     font-weight: 700;
