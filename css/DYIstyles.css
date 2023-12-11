@@ -18,6 +18,27 @@ body {
     position: top;
     height: 60px;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-title {
+    flex-grow: 1;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.link-home {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.link-home:hover {
+    color: #303c2a;
 }
 
 .main {
@@ -106,6 +127,10 @@ body {
     text-decoration: none;
     font-size: 34px;
     font-weight: 700;
+}
+
+.text-lg:hover {
+    color: #303c2a;
 }
 
 .text-title {
