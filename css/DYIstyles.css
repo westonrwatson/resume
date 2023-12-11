@@ -108,6 +108,10 @@ body {
     font-weight: 700;
 }
 
+.text-title {
+    font-size: 34px;
+    font-weight: 700;
+}
 .li-spacing {
     margin-bottom: 10px;
 }
